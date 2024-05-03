@@ -35,3 +35,6 @@ Enable CrossOrigin in Class Level
 @CrossOrigin
 @CrossOrigin(origins = "http://localhost:5174")
 Enable CrossOrigin in Method Level
+
+## Version 6
+CrossOrigin Global settings by WebMvcConfigurer
