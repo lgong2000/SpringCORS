@@ -38,3 +38,8 @@ Enable CrossOrigin in Method Level
 
 ## Version 6
 CrossOrigin Global settings by WebMvcConfigurer
+
+## Version 7
+Remove WebMvcConfigurer
+SecurityFilterChain
+    .cors(withDefaults()) - CorsConfigurationSource
