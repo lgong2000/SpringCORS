@@ -6,7 +6,7 @@ RestController for Coffee List
 ## Version 2
 Create frontend - Vue - https://vuejs.org/guide/quick-start.html
 1. SpringCORS Location - D:\GitHub\SpringCORS
-    Windows Command Prompt - D:\GitHub\SpringCORS\src\main - npm create vue@latest (npm init vue@lastest for first time)
+    Windows Command Prompt/Intellij Terminal - D:\GitHub\SpringCORS\src\main - npm create vue@latest (npm init vue@lastest for first time)
         Project name: frontend
         Add TypeScript: Yes
         Add JSX Support: No
@@ -16,6 +16,12 @@ Create frontend - Vue - https://vuejs.org/guide/quick-start.html
         Add an End-to-End Testing Solution: No
         Add ESLint for code quality: No
         Add Vue DevTools 7 extension for debugging: No
-    cd frontend
-    npm install
-    npm run dev
+2. cd frontend
+3. npm install
+4. npm run dev
+   http://localhost:5174/
+
+## Version 3
+Clean Vue Project - Delete components, assets
+npm run dev - 
+    Access to fetch at 'http://localhost:8080/api/coffee' from origin 'http://localhost:5174' has been blocked by CORS policy
