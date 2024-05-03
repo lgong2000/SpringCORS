@@ -9,7 +9,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/coffee")
-@CrossOrigin
+//@CrossOrigin
+//@CrossOrigin(origins = "http://localhost:5174")
 public class CoffeeController {
     private List<Coffee> coffeeList = new ArrayList<>();
 
@@ -19,11 +20,13 @@ public class CoffeeController {
         coffeeList.add(new Coffee(3, "Caffe Caremel Macchiato", Size.TALL));
     }
 
+    @CrossOrigin
     @GetMapping
     public List<Coffee> findAll() {
         return coffeeList;
     }
 
+    @CrossOrigin(origins = "http://localhost:5174")
     @DeleteMapping
     public void delete(Integer id) {
         coffeeList.removeIf(coffee -> coffee.id().equals(id));

@@ -28,4 +28,10 @@ npm run dev -
 
 ## Version 4
 @CrossOrigin
+@CrossOrigin(origins = "http://localhost:5174")
 Enable CrossOrigin in Class Level
+
+## Version 5
+@CrossOrigin
+@CrossOrigin(origins = "http://localhost:5174")
+Enable CrossOrigin in Method Level
