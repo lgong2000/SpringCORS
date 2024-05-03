@@ -25,3 +25,7 @@ Create frontend - Vue - https://vuejs.org/guide/quick-start.html
 Clean Vue Project - Delete components, assets
 npm run dev - 
     Access to fetch at 'http://localhost:8080/api/coffee' from origin 'http://localhost:5174' has been blocked by CORS policy
+
+## Version 4
+@CrossOrigin
+Enable CrossOrigin in Class Level
